@@ -1,0 +1,30 @@
+#view-square .row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 14px;
+}
+#view-square label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #dbeafe;
+  margin-bottom: 6px;
+}
+#numCuadrado {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-size: 16px;
+  border: 1px solid #334155;
+  outline: none;
+  background: #0f172a;
+  color: #fff;
+}
+#numCuadrado:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.25);
+}
+#outSquare {
+  font-size: 14px;
+  color: #cbd5e1;
+  margin-top: 10px;
+}

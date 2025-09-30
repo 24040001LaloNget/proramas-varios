@@ -1,0 +1,27 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Programas — nuggetRed</title>
+  <link rel="stylesheet" href="style/base.css">
+  <script src="js/nav.js" defer></script>
+</head>
+<body>
+  <h1 class="titulo"> Portal de Programas — nuggetRed </h1>
+
+  <!-- Barra de botones -->
+  <div class="botonera">
+    <button onclick="cargarPagina('inicio.html')" class="btn inicio">🏠 INICIO</button>
+    <button onclick="cargarPagina('calc.html')" class="btn calc">🧮 CALCULADORA</button>
+    <button onclick="cargarPagina('nomina.html')" class="btn emp">👥 EMPLEADOS</button>
+    <button onclick="cargarPagina('square.html')" class="btn cuad">⬛ CUADRADO</button>
+  </div>
+
+  <!-- Cuadro de contenido -->
+  <div class="contenedor">
+    <iframe id="visor" src="inicio.html"></iframe>
+  </div>
+</body>
+</html>
